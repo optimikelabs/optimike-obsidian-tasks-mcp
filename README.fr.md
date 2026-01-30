@@ -10,7 +10,7 @@ Version anglaise : [README.md](README.md)
 
 - Node.js >= 16
 - Obsidian Desktop
-- Plugin Obsidian Tasks configuré dans ton vault
+- Plugin Obsidian Tasks configuré dans ton vault : https://github.com/obsidian-tasks-group/obsidian-tasks
 - Fichier de config Tasks présent ici : `<vault>/.obsidian/plugins/obsidian-tasks/data.json`
 
 ## Démarrage rapide
@@ -30,6 +30,9 @@ npx optimike-obsidian-tasks-mcp /path/to/obsidian/vault
 - Sortie JSON ou Markdown
 
 ## Config du plugin Tasks (source de vérité)
+
+Ce serveur repose sur le plugin Obsidian Tasks :
+https://github.com/obsidian-tasks-group/obsidian-tasks
 
 Le serveur lit les réglages Tasks (statuts, presets, filtre global) depuis :
 

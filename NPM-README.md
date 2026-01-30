@@ -2,6 +2,9 @@
 
 A Model Context Protocol (MCP) server for extracting and querying Obsidian Tasks from markdown files. Designed to work with MCP clients (Claude, Codex, IDEs, etc.) to enable AI‑assisted task management.
 
+Prerequisite: Obsidian Tasks plugin configured in your vault  
+https://github.com/obsidian-tasks-group/obsidian-tasks
+
 ## Installation
 
 You can install globally:
