@@ -9,18 +9,17 @@
     "obsidian",
     "tasks",
     "mcp",
-    "claude",
     "ai",
     "model-context-protocol"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mickahouan/optimike-obsidian-tasks-mcp.git"
+    "url": "git+https://github.com/optimikelabs/optimike-obsidian-tasks-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/mickahouan/optimike-obsidian-tasks-mcp/issues"
+    "url": "https://github.com/optimikelabs/optimike-obsidian-tasks-mcp/issues"
   },
-  "homepage": "https://github.com/mickahouan/optimike-obsidian-tasks-mcp#readme",
+  "homepage": "https://github.com/optimikelabs/optimike-obsidian-tasks-mcp#readme",
   "bin": {
     "optimike-obsidian-tasks-mcp": "dist/index.js"
   },

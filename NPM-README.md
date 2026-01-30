@@ -1,6 +1,6 @@
 # optimike-obsidian-tasks-mcp
 
-A Model Context Protocol (MCP) server for extracting and querying Obsidian Tasks from markdown files. Designed to work with Claude via the MCP protocol to enable AI-assisted task management.
+A Model Context Protocol (MCP) server for extracting and querying Obsidian Tasks from markdown files. Designed to work with MCP clients (Claude, Codex, IDEs, etc.) to enable AI‑assisted task management.
 
 ## Installation
 
@@ -64,9 +64,9 @@ npm run inspect:stdio
 npm run inspect:http
 ```
 
-### Using with Claude
+### Using with MCP clients (Claude, Codex, etc.)
 
-Add this configuration to your Claude client that supports MCP:
+Add this configuration to a client that supports MCP:
 
 ```json
 {
@@ -107,7 +107,7 @@ Supported query syntax includes:
 - Path and description filters
 - Priority filters
 
-For more details, see the full documentation at [GitHub Repository](https://github.com/mickahouan/optimike-obsidian-tasks-mcp).
+For more details, see the full documentation at [GitHub Repository](https://github.com/optimikelabs/optimike-obsidian-tasks-mcp).
 
 ## License
 

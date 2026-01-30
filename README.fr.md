@@ -2,9 +2,22 @@
 
 [![version npm](https://badge.fury.io/js/optimike-obsidian-tasks-mcp.svg)](https://badge.fury.io/js/optimike-obsidian-tasks-mcp)
 
-Serveur Model Context Protocol (MCP) pour extraire et interroger les tâches Obsidian depuis des fichiers markdown. Conçu pour fonctionner avec Claude via MCP et permettre une gestion assistée par IA.
+Serveur Model Context Protocol (MCP) pour extraire et interroger les tâches Obsidian depuis des fichiers markdown. Conçu pour fonctionner avec des clients MCP (Claude, Codex, IDE, etc.) et permettre une gestion assistée par IA.
 
 Version anglaise : [README.md](README.md)
+
+## Prérequis
+
+- Node.js >= 16
+- Obsidian Desktop
+- Plugin Obsidian Tasks configuré dans ton vault
+- Fichier de config Tasks présent ici : `<vault>/.obsidian/plugins/obsidian-tasks/data.json`
+
+## Démarrage rapide
+
+```bash
+npx optimike-obsidian-tasks-mcp /path/to/obsidian/vault
+```
 
 ## Fonctionnalités
 
@@ -142,7 +155,7 @@ npx optimike-obsidian-tasks-mcp /path/to/obsidian/vault
 Depuis la source :
 
 ```bash
-git clone https://github.com/mickahouan/optimike-obsidian-tasks-mcp.git
+git clone https://github.com/optimikelabs/optimike-obsidian-tasks-mcp.git
 cd optimike-obsidian-tasks-mcp
 npm install
 npm run build
@@ -186,7 +199,7 @@ npm run inspect:stdio
 npm run inspect:http
 ```
 
-### Configuration Claude Desktop (MCP)
+### Configuration client MCP (ex. Claude Desktop)
 
 ```json
 {
